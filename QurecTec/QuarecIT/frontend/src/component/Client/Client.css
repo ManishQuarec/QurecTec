@@ -1,0 +1,31 @@
+.Container {
+    display: flexbox;
+    height: 80vh;
+    margin-top: 10%;
+    
+    
+    /* border: red 1px solid ; */
+    font-family: 'Optima nova LT Pro';
+}
+.Container h1{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+.img-container {
+    height: 60%;
+    width: 70%;
+    margin-top: 2em;
+    margin-left: 15%;
+    display: inline-block;
+  
+    align-items: center;
+    
+}
+.img-container img {
+    width:12%;
+    height:40%;
+    padding: 1%;
+    margin:0;
+    
+}

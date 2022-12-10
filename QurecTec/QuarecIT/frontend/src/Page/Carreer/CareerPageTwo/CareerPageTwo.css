@@ -1,0 +1,62 @@
+.CareerPageTwo {
+
+    /* border: red 1px solid; */
+    height: 80vh;
+    margin-top: 0%;
+}
+
+.HeadingWhy {
+
+    color:white;
+    border: white 1px solid;
+    text-align: center;
+    width: 15%;
+    font-family: 'Optima nova LT Pro';
+    height: 7%;
+    padding: 0.5%;
+    text-decoration: underline;
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 150%;
+    background-color: rgba(2, 68, 119, 0.5);
+    margin-left: 42%;
+}
+
+.secondHalf {
+    display: flex;
+    /* border :magenta 1px solid; */
+    height: 80%;
+}
+.secondHalfLeft {
+    flex:1;
+    /* border: greenyellow 1px solid; */
+}
+.secondHalfRight {
+flex:1;
+/* border:violet 1px solid */
+}
+
+.secondHalfLeftSide{
+    margin-left: 20%;
+    /* border: rgb(255, 0, 174) 1px solid; */
+    height: 90%;
+    width:70%;
+    margin-right: 0%
+}
+.secondHalfLeftSide img {
+    margin-top: 10%; 
+    height: 20%;
+    width: 80%
+}
+
+.secondHalfRightSide {
+    margin-left: 20%;
+    /* border: rgb(255, 0, 174) 1px solid; */
+    height: 90%;
+    width:70%
+}
+.secondHalfRightSide img {
+    margin-top: 10%; 
+    height: 20%;
+    width: 80%
+}

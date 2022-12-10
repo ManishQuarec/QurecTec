@@ -1,0 +1,90 @@
+.SecondAboutUs {
+  /* margin-top: 1%; */
+  height: 80vh;
+  /* border: rgb(255, 0, 162) 3px solid; */
+  display: flex;
+  padding-top: 1%;
+}
+.contain-1 {
+  flex: 1;
+  height: 50%;
+  margin-top: 10%;
+
+  /* border: red 1px solid; */
+}
+.mission h2, .vision h2{
+  color: #00ffff;
+  text-decoration: underline;
+  font-family: "Optima nova LT Pro";
+  text-align: center;
+  margin-top: 2%;
+  margin-left:0%;
+}
+
+.mission p, .vision p, .values p {
+  font-family: "Optima nova LT Pro";
+  text-align: center;
+  margin-left: 15%;
+  color:white;
+  margin-left: 0%
+}
+
+.values h2 {
+    color: #00ffff;
+    text-decoration: underline;
+    font-family: "Optima nova LT Pro";
+    text-align: center;
+    margin-right: 4%;
+    margin-top: 3%;
+    margin-left:0%;
+
+}
+.contain-2 {
+  flex: 1;
+  height: 50%;
+  margin-top: 10%;
+}
+.contain-3 {
+  flex: 1;
+  /* border: pink 1px solid; */
+  height: 50%;
+  margin-top: 10%;
+}
+.mission {
+  margin-top: 20%;
+
+  margin-left: 20%;
+  border: white 2px solid;
+  background-color: rgba(2, 68, 119, 0.5);
+  width: 80%;
+  height: 70%;
+}
+.vision {
+  margin-top: 20%;
+  margin-left: 10%;
+  border: white 2px solid;
+  background-color: rgba(2, 68, 119, 0.5);
+  width: 80%;
+  height: 70%;
+}
+.values {
+  margin-top: 20%;
+  margin-left: 0%;
+  border: white 2px solid;
+  background-color: rgba(2, 68, 119, 0.5);
+  width: 80%;
+  height: 70%;
+  margin-right: 30%;
+}
+.image-1 {
+  margin-top: 10%;
+  margin-left: 53%;
+}
+.image-2 {
+  margin-top: 10%;
+  margin-left: 42%;
+}
+.image-3 {
+  margin-top: 10%;
+  margin-left: 30%;
+}

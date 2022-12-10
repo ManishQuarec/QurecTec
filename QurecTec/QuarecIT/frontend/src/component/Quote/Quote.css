@@ -1,0 +1,100 @@
+.main-container {
+  height: 85vh;
+
+  display: flex;
+  color: white !important;
+  font-family: "Optima nova LT Pro";
+}
+
+.main-container-left {
+  flex: 1;
+}
+.main-container-right {
+  flex: 1;
+}
+
+.text {
+
+  padding: 15%;
+  height: 50%;
+  margin: 10%;
+}
+.text div {
+  padding: 2%;
+  font-size: 110%;
+  font-weight: 600;
+}
+
+.text h2 {
+  padding: 2%;
+}
+
+.text-right {
+  /* border: red 1px solid; */
+  padding: 15%;
+  height: 50%;
+  margin: 10%;
+}
+.text-right-null {
+  height: 120px;
+}
+.frame {
+  border: white 5px solid;
+  height: 450%;
+  border-radius: 2%;
+  background-color: #024477;
+  opacity: 60%;
+}
+.frame input {
+  /* margin: 5%; */
+  background-color: #024477;
+  border: white 1px solid;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 10%;
+}
+.frame button {
+  background-color: #024477;
+  border: red 1px solid;
+  color: white;
+  /* padding: 5%; */
+  margin: 5%;
+  width: 30%;
+  height: 10%;
+  border-radius: 2%;
+  font-family: "Optima nova LT Pro";
+  margin-left: 35%;
+}
+
+*:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: white !important;
+  font-size: 135%;
+  opacity: 100%;
+  font-family: "Optima nova LT Pro";
+  /* Firefox *
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+  font-family: "Optima nova LT Pro";
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+  font-family: "Optima nova LT Pro";
+}
+
+.frame button:hover {
+  background-color: red;
+  /* background-size: 100% 100%; */
+  box-shadow: outset 6.5em;
+}

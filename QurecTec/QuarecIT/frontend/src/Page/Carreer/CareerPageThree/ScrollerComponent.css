@@ -1,0 +1,117 @@
+.ScrollerComponent {
+  border: #7dfbfe 1px solid;
+  height: 20%;
+  color: white;
+  margin: 1%;
+ 
+  display: flex;
+  font-family: 'Optima nova LT Pro';
+}
+
+.IconImg {
+    /* border: red 1px solid; */
+    width: 8%;
+    height: 100%;
+    flex:1s;
+    padding: 1%;
+    
+}
+.jobDescription {
+    /* border:magenta 1px solid; */
+    height: 100%;
+    width:70%;
+    /* margin-left: 10%; */
+    flex:1
+
+}
+.submitButton {
+    /* border:blue 1px solid; */
+    width:25%;
+    flex:1s;
+}
+.designation {
+    width:100%;
+    /* border: goldenrod 1px solid; */
+    font-family: 'Optima nova LT Pro';
+    color: #6ADEE6;
+    text-decoration-line: underline;
+    font-weight: 750;
+    font-size: 150%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.experience  {
+    display: inline;
+    /* border: magenta 1px solid; */
+    width:20%;
+    font-family: 'Optima nova LT Pro';
+    font-weight: 600;
+    font-size: 120%;
+    /* margin-top: 25%; */
+ 
+}
+.positions{
+    /* border: red 1px solid; */
+    width:20%;
+    display: inline;
+    font-family: 'Optima nova LT Pro';
+    font-weight: 600;
+    font-size: 120%;
+    margin-left: 15%
+}
+.qualification {
+    display: inline;
+    /* border: green 1px solid; */
+    width:20%;
+    font-family: 'Optima nova LT Pro';
+    font-weight: 600;
+    font-size: 120%;
+    margin-left: 15%
+}
+
+.yearsOfExperince {
+    display: inline;
+
+}
+.positionsNo {
+    display: inline;
+    margin-left: 17%;
+}
+.qualifictionData {
+    display: inline;
+    margin-left: 20%;
+}
+.submitButton .viewDetail {
+    width: 30%;
+    height: 35%;
+    display: inline;
+    margin-left: 0%;
+    background-color: red;
+    color: white;
+    font-size: 120%;
+    border: red;
+    border-radius: 5%;
+    margin-left: 12%;
+    margin-top: 10%;
+    font-weight: 400;
+   
+}
+
+.submitButton .applyNow{
+    display: inline;
+    width: 30%;
+    height: 35%;
+    display: inline;
+    background-color: transparent ;
+    border: red 1px solid;
+    color: white;
+    font-size: 120%;
+    margin-left: 12%;
+    border-radius: 5%;
+    font-weight: 400;
+   
+    
+}
+/* .IconImg img {
+    padding: 1%;
+} */

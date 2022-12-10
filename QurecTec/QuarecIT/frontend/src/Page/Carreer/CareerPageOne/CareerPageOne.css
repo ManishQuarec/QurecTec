@@ -1,0 +1,67 @@
+.CareerPageOne {
+  /* border: red 1px solid; */
+  margin-top: 6%;
+  height: 80vh;
+  display: flex;
+  color: white;
+  font-family: "Optima nova LT Pro";
+}
+.leftCareer {
+  flex: 1;
+  /* border: green 1px solid; */
+  position: relative;
+  /* padding:10%; */
+}
+
+.rightCareer {
+  flex: 1;
+  /* border: magenta 1px solid; */
+  position: relative;
+}
+.leftCareer img {
+ margin-top: 100%;
+  width: 60%;
+  margin: 0%;
+  height: 10%
+  ;
+}
+.leftcareer1 {
+  /* border: greenyellow 1px solid; */
+  height: 80%;
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 13%;
+}
+.leftCareerImage {
+    /* border: red 1px solid; */
+    margin-top: 10%;
+
+}
+.whyJoinUS {
+    font-weight: 600;
+    font-size: 150%;
+
+}
+
+.joinTheBest {
+    margin-top: 3%;
+    font-weight: 600;
+    font-size: 200%;
+}
+
+.leftCareer p {
+    margin-top: 4%;
+    width: 80%;
+    line-height: 1.5;
+}
+
+.rightCareer img {
+
+    width: 60%;
+    height: 50%;
+    margin-top: 16%;
+    margin-left: 16%;
+}
+.leftCareerImage :hover { 
+  border: 1px solid white; 
+} 

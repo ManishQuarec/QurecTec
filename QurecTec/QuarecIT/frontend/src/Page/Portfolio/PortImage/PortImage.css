@@ -1,0 +1,73 @@
+.fit{
+  margin-right: 40px;
+  margin-top: 40px;
+  /* border:magenta 1px solid; */
+  height: 90%;
+  width: 22.5%;
+  padding: 1%;
+  position: relative;
+}
+
+
+.PortImage {
+  /* border: navy 1px solid;
+   */
+  height: 23rem;
+  width: 22rem;
+  margin-top: 2%;
+  margin: 1%;
+  /* overflow: hidden; */
+}
+
+.curve {
+  margin-top: 350%;
+  margin-left: 40%;
+  border: #7DFBFE 2px solid;
+  background-color: #0377E4;
+  opacity: 70%;
+  height: 20%;
+  /* padding: 2%; */
+  width: 300%;
+  /* margin: 10%; */
+  position: absolute;
+  /* bottom: 0; */
+  border-radius: 45px;
+  /* display: vertical; */
+  align-self: center;
+}
+.uperdata,
+.lowerData {
+  /* padding: 2%; */
+  font-size: 150%;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  font-family: 'Optima nova LT Pro';
+  
+}
+.uperdata{
+  margin-top: 3px;
+  color:#002374;
+  font-size: 175%;
+  font-weight: 600;
+  
+}
+.lowerData {
+  margin-top: 15px;
+  color:white;
+  opacity: 100%;
+  /* margin-bottom: ; */
+}
+.PortImage img {
+  width: 100%;
+  height: 100%;
+  padding-left: 0%;
+  /* margin-top: 15%; */
+  margin: 0%;
+
+  border-radius: 1%;
+  /* border: 0%; */
+  box-shadow: 0px 0px 0px 3px  rgba(0, 163, 255, 0.3);
+
+}
+

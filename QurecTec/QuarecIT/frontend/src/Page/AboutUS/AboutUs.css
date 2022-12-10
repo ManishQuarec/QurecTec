@@ -1,0 +1,96 @@
+.About {
+  display: flex;
+  height: 90vh;
+  /* border: orange 1px solid; */
+
+  margin-top: 6%;
+}
+.left-About{
+    flex: 1;
+    /* border: rgb(0, 255, 76) 1px solid; */
+}
+.Right-About{
+    flex: 1;
+    /* border: rgb(75, 22, 191) 1px solid; */
+}
+.club-left{
+    display: block;
+height: 80%;
+margin-top: 10%;
+margin-left:10%;
+margin-right:10%;
+margin-bottom: 10%;
+
+/* border: magenta 1px solid; */
+
+}
+
+.club-right{
+    display: block;
+    height: 80%;
+    margin-top: 10%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 10%;
+    
+    /* border: gold 1px solid; */
+}
+
+.aboutImg {
+    height: 40rem;
+    width: 40rem;
+    border-radius: 50%;
+}
+
+.who{
+    color: white;
+    font-family: 'Optima nova LT Pro';
+   
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+    padding: 1%;
+}
+.Us{
+    color: white;
+    font-family: 'Optima nova LT Pro';
+    font-size: 2.5rem;
+    padding: 1%;
+    font-weight: 600;
+}
+.statement {
+    color: white;
+    font-family: 'Optima nova LT Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 200%;
+    word-spacing: 1000%;
+    line-height: 1.5
+}
+
+.alltime {
+
+    height: 15rem;
+    width: 48rem;
+    margin-left:0%;
+    margin-top: 4%;
+    
+    /* border: red 1px solid; */
+}
+.alltime img {
+    width: 45rem
+}
+
+.clubleftText {
+    display: block;
+    margin-left: 5%;
+    height: 60%;
+    width: 40rem;
+    /* border:rgb(75, 22, 191) 1px solid; */
+}
+
+.aboutImg1{
+height: 100%;
+width: 80%
+
+}

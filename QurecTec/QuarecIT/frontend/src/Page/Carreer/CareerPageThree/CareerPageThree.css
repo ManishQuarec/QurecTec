@@ -1,0 +1,43 @@
+.CareerPageThree {
+  /* border: red 1px solid; */
+  height: 80vh;
+  width:100%;
+  /* padding: 1% ; */
+  /* margin-left: 10%; */
+}
+
+.CureentOpening {
+  color: white;
+  font-weight: 600;
+  font-size: 200%;
+  font-family: 'Optima nova LT Pro';
+  text-decoration: underline;
+  margin-left: 5%;
+
+
+}
+.CareerPortfolio {
+  margin-top: 0%!important;
+}
+.ScrollerBlock {
+  /* border: green 1px solid; */
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 75%;
+  margin-top: 2%;
+  overflow: hidden;
+  overflow-y: scroll ;
+  overflow-y: visible;
+
+}
+
+.ScrollerBlock::-webkit-scrollbar {
+  display: none;
+}
+
+.ScrollerBlock {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+

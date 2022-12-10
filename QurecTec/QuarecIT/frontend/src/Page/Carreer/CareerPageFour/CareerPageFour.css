@@ -1,0 +1,52 @@
+.CareerPageFour {
+  height: 90vh;
+  /* border: green 1px solid; */
+  display: flex;
+  margin-top: 3%;
+}
+.CareerPageFourLeft {
+  /* border: red 1px solid; */
+  flex: 1;
+  /* padding: 2%; */
+}
+.CareerPageFourRight {
+  /* border: green 1px solid; */
+  flex: 1;
+}
+.didntFind {
+  margin-top: 5%;
+  color: white;
+  font-family: "Optima nova LT Pro";
+  font-size: 200%;
+  margin-left: 20%;
+}
+.fillThisForm {
+  color: white;
+  font-family: "Optima nova LT Pro";
+  opacity: 50%;
+  margin-left: 20%;
+  margin-top: 1%;
+  font-size: 120%;
+}
+.CareerPageFourMargin {
+  /* border: magenta 1px solid; */
+  height: 100%;
+}
+.cvform {
+  /* border: green 1px solid; */
+
+  /* margin: 3%; */
+  height: 80%;
+  width: 90%;
+  margin-left: 20%;
+  margin-top: 3%;
+
+}
+
+.JoinTeam {
+    margin-top: 20%;
+    width: 50%;
+    height: 50%;
+    margin-left: 22%;
+}
+

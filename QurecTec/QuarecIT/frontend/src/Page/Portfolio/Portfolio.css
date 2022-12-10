@@ -1,0 +1,77 @@
+.Portfolio{
+
+    /* border: red 1px solid; */
+    /* height: 80vh; */
+    margin-top: 8%;
+
+}
+
+.Portfolio-false{
+
+  
+    margin-top: 0%;
+
+}
+.head {
+    text-align: center;
+    color:white;
+    border: white 1px solid;
+    padding:1px;
+    width: 15rem;
+    height: 7%;
+    font-weight: 600;
+    font-size: 225%;
+    align-content: center;
+    text-decoration: underline 1px solid;
+    margin-left: 45%;
+
+}
+
+.subDivision {
+
+    display: inline-flex;
+    color: white;
+    width: 100%;
+    /* border: green 1px solid; */
+    margin-top:2%;
+    margin-left: 0%;
+    /* gap: 10px; */
+
+}
+.subDivision  label{
+font-weight: 600;
+    margin-left: 5.5%;
+    border:  #7DFBFE 2px solid;
+    padding: 0.5rem;
+    
+    
+}
+
+.limit{
+    /* border: green 1px solid; */
+    width: 90%;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-top: 5%;
+    height: 55%;
+    display: grid ;
+    grid-template-columns: 400px 400px 400px 400px ;
+    grid-template-rows: 600px 600px 600px 600px ;;
+    position: absolute;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+
+}
+
+.limit::-webkit-scrollbar {
+    display: none;
+}
+
+.limit{
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+

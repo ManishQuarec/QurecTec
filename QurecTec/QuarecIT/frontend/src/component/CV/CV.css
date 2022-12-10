@@ -1,0 +1,93 @@
+.frame2 {
+  border: white 5px solid;
+  height: 85%;
+  width: 65%;
+  /* margin-top: 2%; */
+  border-radius: 2%;
+  background-color: #024477;
+  opacity: 60%;
+}
+.frame2 input {
+  /* margin: 5%; */
+  background-color: #024477;
+  border: white 1px solid;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 10%;
+}
+.frame2 button {
+  background-color: #024477;
+  border: red 1px solid;
+  color: white;
+  /* padding: 5%; */
+  margin: 5%;
+  width: 30%;
+  height: 10%;
+  border-radius: 2%;
+  font-family: "Optima nova LT Pro";
+  margin-left: 35%;
+}
+
+/* *:focus {
+    outline: none;
+} */
+
+.frame2::placeholder {
+  color: white !important;
+  font-size: 135%;
+  opacity: 100%;
+  font-family: "Optima nova LT Pro";
+  height: 100%;
+  /* Firefox *
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+  font-family: "Optima nova LT Pro";
+}
+
+.frame2 ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+  font-family: "Optima nova LT Pro";
+}
+
+.frame2 button:hover {
+  background-color: red;
+  /* background-size: 100% 100%; */
+  box-shadow: outset 6.5em;
+}
+
+.browseFile{
+    margin-top: 5%;
+    color: #7DFBFE;
+    display: inline;
+    font-size: 120%;
+    opacity: 100%;
+    font-family: "Optima nova LT Pro";
+    height: 100%;
+    text-decoration: underline;
+    margin-left: 2%;
+
+}
+.UploadResume  {
+    margin-top: 5%;
+    color: white;
+    display: inline;
+    margin-left: 5%;
+    font-size: 135%;
+    opacity: 100%;
+    font-family: "Optima nova LT Pro";
+    height: 100%;
+    width:100%
+ 
+
+}
+
+.reasonForChange {
+    margin-bottom: 5%;
+}
