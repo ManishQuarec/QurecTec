@@ -7,12 +7,15 @@ import Home from './Page/Home/Home';
 import Career from './Page/Carreer/Career'
 import ContactUS from './Page/ContactUS/ContactUS'; 
 
+import Test from './Page/ContactUS/Test/Test'
+
 
 function App() {
   return (
     <div className="App">
      {/* <CV/> */}
-    <Nav/>
+    {/* <Nav/> */}
+    {/* <Test/> */}
     <ContactUS/>
     {/* <Career/> */}
 

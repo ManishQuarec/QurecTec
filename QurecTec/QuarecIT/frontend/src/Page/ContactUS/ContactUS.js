@@ -3,6 +3,7 @@ import "./ContactUS.css";
 import Form from "./Test/Test";
 import Quote from "../../component/Quote/Quote";
 
+
 function ContactUS() {
   return (
     <div className="ContactUS">
@@ -17,7 +18,6 @@ function ContactUS() {
             placeat aperiam id, aut commodi nesciunt totam laborum facere soluta
             veniam fugit numquam. Iste sed soluta sequi explicabo, modi, illo
             dolores labore nesciunt ullam itaque laudantium rerum maxime
-           
           </div>
           <div className="email">Email:- Info@quarecsolution.com</div>
           <div className="call">Call:- +91-7878787878</div>
@@ -33,9 +33,11 @@ function ContactUS() {
           <Quote value={{ value: false }} />
         </div>
       </div>
-      <div className="thirdSide"></div>
+      <div className="thirdSide">
+        {/* <Form /> */}
+      </div>
     </div>
-  )
+  );
 }
 
 export default ContactUS;
