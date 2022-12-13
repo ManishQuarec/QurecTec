@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactUS.css";
-import Form from "./Test/Test";
+import Form from "./Test/Form";
 import Quote from "../../component/Quote/Quote";
 
 
@@ -34,7 +34,7 @@ function ContactUS() {
         </div>
       </div>
       <div className="thirdSide">
-        {/* <Form /> */}
+        <Form />
       </div>
     </div>
   );

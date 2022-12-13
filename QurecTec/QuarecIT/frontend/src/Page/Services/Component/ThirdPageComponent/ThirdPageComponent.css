@@ -1,0 +1,38 @@
+.ThirdPageComplete {
+  /* border: red 1px solid; */
+  height: 78vh;
+  color: white;
+  font-family: "Optima nova LT Pro";
+  margin-top: 8%;
+
+}
+
+.ThirdPageComponent {
+  /* border: green 1px solid; */
+  height: 80%;
+  width: 65%;
+  margin-left: 20%;
+  margin-top: 3%;
+  
+  display: flex;
+}
+.ThirdPageLeft {
+    flex:1;
+    /* border: magenta 1px solid; */
+}
+.ThirdPageRight {
+    flex:1
+}
+.ThirdPageLeft img {
+    width: 100%;
+    height: 15%;
+}
+.ThirdPageRight img {
+    width: 100%;
+    height: 15%;
+}
+.TypesOfWebsite {
+    font-size: 250%;
+    margin-left: 28%;
+}
+

@@ -2,13 +2,15 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper";
 import "swiper/css";
-import "swiper/less";
+// import "swiper/less";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import "swiper/css/effect-fade";
+import { EffectFade } from 'swiper';
 
 import "swiper/css/autoplay";
-import "./Test.css";
+import "./Form.css";
 import img1 from "../../../Image/Testimonials/Image1.png";
 import img2 from "../../../Image/Testimonials/Image2.png";
 import img3 from "../../../Image/Testimonials/Image3.png";
@@ -33,9 +35,7 @@ function dataSet(count) {
           team was always positive and suggested many improvements without
           charging additional cost. They have been very responsive, polite,
           professional and well communicators. I am looking forward to work with
-          them again very soon.They have been very responsive, polite,
-          professional and well communicators. I am looking forward to work with
-          them again very soon.`,
+          .`,
     },
     {
       id: 3,
@@ -57,7 +57,8 @@ function dataSet(count) {
   // console.log(count, datas[count].Name);
   return (
     <>
-      <SwiperSlide key={count} className="data" style={{ zIndex: -10 }}>
+      
+        <SwiperSlide key={count}  >
         <div className="testMargin">
           <img src={datas[count].imgSrc} alt="Image" className="pics" />
           <div className="setText">
@@ -65,8 +66,9 @@ function dataSet(count) {
             <div className="picsDesignation">{datas[count].designation}</div>
             <div className="picsContent">{datas[count].Content}</div>
           </div>
-        </div>
-      </SwiperSlide>
+          </div>
+        </SwiperSlide>
+      
     </>
   );
 }
@@ -74,10 +76,11 @@ function dataSet(count) {
 function Form() {
   return (
     <Swiper
-      modules={[Pagination, Autoplay]}
+      modules={[Pagination, Autoplay,EffectFade]}
       slidesPerView={1}
-      autoplay={{ delay: 3000 }}
+      autoplay={{ delay: 1000 }}
       pagination={{ clickable: true }}
+      // effect={"fade"}
     >
       {dataSet(0)}
       {dataSet(1)}

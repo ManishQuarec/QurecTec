@@ -74,7 +74,7 @@ function Home() {
       </div>
       <HomePage3 />
       <Client />
-      <Quote />
+      <Quote value={{value:true}} />
     </>
   );
 }

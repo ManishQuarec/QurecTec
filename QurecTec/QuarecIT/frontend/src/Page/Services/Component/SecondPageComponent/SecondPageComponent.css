@@ -1,0 +1,53 @@
+.SecondPageComponent {
+  /* border: green 1px solid; */
+  height: 80vh;
+  display: flex;
+  color: white;
+  font-family: 'Optima nova LT Pro';
+}
+
+.SecondPageLeft {
+    /* border: red 1px solid; */
+    flex: 1;
+    /* padding: 5%; */
+}
+.SecondPageRight {
+    /* border: magenta 1px solid; */
+    flex: 1;
+   
+}
+.SecondPageLeftMargin {
+    /* border: blue 1px solid; */
+    width: 60%;
+    height: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+    
+}
+ .googleone, .clutchone, .upworkone {
+
+    width: 20%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.pone, .ptwo, .pthree, .pfour{
+    font-size: 130%;
+ 
+}
+
+.headerContent {
+    font-size: 200%;
+}
+
+.ptwo, .pthree, .pfour{
+margin-top: 5%;
+ 
+}
+
+.SecondPageRightImage{
+    width:60%;
+    height: 80%;
+    margin-left: 12%;
+}
+

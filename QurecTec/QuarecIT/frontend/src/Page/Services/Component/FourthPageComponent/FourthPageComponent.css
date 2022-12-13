@@ -1,0 +1,62 @@
+.FourthPageComponent {
+    height: 75vh;
+    /* border: red 1px solid; */
+    color: white;
+    font-family: 'Optima nova LT Pro';
+    /* width: 20%; */
+
+}
+.ForthPageBorder {
+    border: white 2px solid;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    border-radius:  2%;
+    margin-right: 0%;
+  
+}
+.ForthPageImage {
+    width: 100%;
+    height: 80%;
+    margin: 0%;
+    z-index: -2;
+}
+.ForthPageContent, .ForthPageHeader {
+    text-align: center;
+}
+/* .ForthPageContent {
+    margin-top: 0%;
+} */
+/* .PageHeader{
+
+margin-bottom: 50%;
+
+
+} */
+.ForthPageHeader {
+    font-size: 150%;
+    
+    z-index: 1;
+    bottom:10%;
+    /* position: relative; */
+}
+.SwiperBorder {
+  /* border: green 10px solid; */
+  width:85%;
+  align-content: center;
+margin-left:10% ;
+margin-top: 2%;
+/* height: 60%; */
+}
+
+/* .SwiperEdit{
+
+    margin: 0%;
+} */
+
+.ForthPageHeader2 {
+
+    font-size: 250%;
+    text-align: center;
+    margin-left: 5%;
+}
