@@ -2,10 +2,11 @@
 
 
 .Main-Container {
-    height: 85vh;
+    height: 70vh;
     width: 100%;
     z-index: -1 !important;
     margin: 10%;
+    /* border: red 1px solid */
     
     /* margin-top: 20%; */
   

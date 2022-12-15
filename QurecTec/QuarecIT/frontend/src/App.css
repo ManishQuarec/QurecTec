@@ -3,14 +3,19 @@ body{
     background-image: url('./Image/BackGround.gif');
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
     background-attachment: fixed;
+    scrollbar-gutter: stable both-edges;
     
     
+  
     
-    
-    /* height: 100vh; */
+    height: 100vh;
     padding:0;
     margin:0;
 
+}
+
+@media screen and () {
+    
 }

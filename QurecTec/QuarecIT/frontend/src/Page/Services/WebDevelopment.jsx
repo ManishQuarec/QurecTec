@@ -5,6 +5,10 @@ import SecondPageComponent from "./Component/SecondPageComponent/SecondPageCompo
 
 import ThirdPageComponent from "./Component/ThirdPageComponent/ThirdPageComponent";
 import FourthPageComponent from "./Component/FourthPageComponent/FourthPageComponent";
+import Nav from "../../component/Nav/Nav";
+
+import Quote from '../../component/Quote/Quote';
+import Client from '../../component/Client/Client';
 function WebDevelopment() {
   const PropsForFirstPage = {
     Pageheader: "Web Development",
@@ -61,10 +65,13 @@ const PropsForFourthPage = {
 
   return (
     <>
+    <Nav/>
       <FirstPageComponent value={PropsForFirstPage} />
       <SecondPageComponent value={PropsForSecondPage} />
       <ThirdPageComponent value={PropsForThirdPage}/>
       <FourthPageComponent value={PropsForFourthPage} />
+      <Client/>
+    <Quote value={{value:true}}/>
     </>
   );
 }

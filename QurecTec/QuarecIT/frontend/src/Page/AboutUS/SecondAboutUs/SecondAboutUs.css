@@ -16,9 +16,10 @@
   color: #00ffff;
   text-decoration: underline;
   font-family: "Optima nova LT Pro";
-  text-align: center;
-  margin-top: 2%;
-  margin-left:0%;
+  /* text-align: center; */
+  margin-top: 10%;
+  margin-left:36%;
+  /* margin-right: 40%; */
 }
 
 .mission p, .vision p, .values p {
@@ -26,7 +27,8 @@
   text-align: center;
   margin-left: 15%;
   color:white;
-  margin-left: 0%
+  margin-left: 0%;
+  margin-top:3%
 }
 
 .values h2 {
@@ -35,8 +37,8 @@
     font-family: "Optima nova LT Pro";
     text-align: center;
     margin-right: 4%;
-    margin-top: 3%;
-    margin-left:0%;
+    margin-top: 10%;
+    margin-left:3%;
 
 }
 .contain-2 {

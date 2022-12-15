@@ -2,10 +2,13 @@ import React from "react";
 import "./ContactUS.css";
 import Form from "./Test/Form";
 import Quote from "../../component/Quote/Quote";
+import Nav from "../../component/Nav/Nav";
 
 
 function ContactUS() {
   return (
+    <>
+    <Nav/>
     <div className="ContactUS">
       <div className="firstSide">
         <div className="texts">
@@ -37,6 +40,7 @@ function ContactUS() {
         <Form />
       </div>
     </div>
+    </>
   );
 }
 

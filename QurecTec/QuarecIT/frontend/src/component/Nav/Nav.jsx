@@ -2,39 +2,83 @@ import React from "react";
 import "../Nav/nav.css";
 import logo from "../../Image/Quarec.png";
 // import 'bootstrap/dist/css/bootstrap.min.css';
+import { Outlet, Link } from "react-router-dom";
+import { GoGrabber } from "react-icons/go";
+
+
+
 
 function Nav() {
   return (
-    <nav className="sticky">
-    <div className="nav">
-      <ul>
-        <img src={logo} alt="Logo" />
+    <header>
+      <nav className="sticky">
+        <input type="checkbox" id="check" />
+        
+        <div className="nav">
+          <ul>
+            <img src={logo} alt="Logo" />
 
-        <li>
-          <a className="Contact">Contact Us</a>
-        </li>
-        <li>
-          <a className="expand">Careers</a>
-        </li>
-        <li>
-          <a className="expand">Blogs</a>
-        </li>
-        <li>
-          <a className="expand">Services</a>
-        </li>
-        <li>
-          <a className="expand">Portfolio</a>
-        </li>
-        <li>
-          <a className="expand">About Us</a>
-        </li>
+            <label htmlFor="check" className="Icones"><GoGrabber color="white" /></label>
 
-        <li>
-          <a className="expand">Home </a>
-        </li>
-      </ul>
-    </div>
-    </nav>
+            <li className="MoveLeft">
+              <Link to="/contactus" className="Contact">
+                Contact Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/careers" className="expand">
+                Careers
+              </Link>
+            </li>
+            {/* <li>
+          <Link  className="expand">Blogs</Link>
+        </li> */}
+
+            <li className="dataes">
+              <Link  className="expand">
+                Services 
+              </Link>
+              <div className="sub-menu-1">
+                <div>
+                  
+                  <a href="/WebDevelopment">Web Development</a>
+                </div>
+                <div>
+                  <a href="/ERP" >ERP Solution</a>
+                </div>
+                <div>
+                  <a href="/UiDesign">UI UX Design</a>
+                </div>
+                <div>
+                  <a href="/WebDevelopment">Graphic Design</a>
+                </div>
+                <div>
+                  <a href="/GraphicDesign">Digital Marketing</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <Link to="/portfolio" className="expand">
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link to="/aboutus" className="expand">
+                About Us
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/" className="expand">
+                Home{" "}
+              </Link>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
   );
 }
 

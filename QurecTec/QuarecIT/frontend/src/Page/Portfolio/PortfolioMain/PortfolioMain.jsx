@@ -10,6 +10,7 @@ import image8 from "../../../Image/Portfolio/Image8.png";
 import PortImage from "../PortImage/PortImage";
 import "./PortfolioMain.css";
 import Portfolio from "../Portfolio";
+import Nav from "../../../component/Nav/Nav";
 
 const initialState = "all";
 
@@ -17,10 +18,14 @@ export const CountContext = React.createContext();
 
 function PortfolioMain() {
   // const [selected, setSelected] = useState("");
+  function load() {
+    window.scrollTo(0, 0);
+  }
 
  
 
   const reducer = (state, action) => {
+  
     switch (action) {
       case "Web Development":
         return "Web Development";
@@ -105,8 +110,10 @@ function PortfolioMain() {
   });
   return (
     <>
+    <Nav/>
+    {load()}
 <CountContext.Provider  value={{ countDispatch:dispatch}}>
-      <Portfolio />
+      <Portfolio value={{ value: true }}/>
 
       <div className="limit">
         {result.map((item, index) => {

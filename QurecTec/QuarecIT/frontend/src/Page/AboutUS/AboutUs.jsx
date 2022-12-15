@@ -8,12 +8,20 @@ import ThirdAboutUs from "./ThirdAboutUS/ThirdAboutUs";
 import FourthAboutus from "./FourthAboutus/ForthAboutus";
 import Client from "../../component/Client/Client";
 import Quote from "../../component/Quote/Quote";
+import Nav from "../../component/Nav/Nav";
 
 
 
 function AboutUs() {
+
+  function load() {
+    window.scrollTo(0, 0);
+  }
   return (
     <>
+   
+    <Nav/>
+    {load()}
     <div className="About">
       <div className="left-About">
         <div className="club-left">
@@ -41,7 +49,7 @@ function AboutUs() {
     <ThirdAboutUs/>
     <FourthAboutus/>
     <Client/>
-    <Quote/>
+    <Quote value={{ value: true }} />
     </>
   );
 }

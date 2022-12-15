@@ -82,7 +82,7 @@
     margin-left: 20%;
 }
 .submitButton .viewDetail {
-    width: 30%;
+    width: 35%;
     height: 35%;
     display: inline;
     margin-left: 0%;
@@ -92,7 +92,7 @@
     border: red;
     border-radius: 5%;
     margin-left: 12%;
-    margin-top: 10%;
+    margin-top: 9%;
     font-weight: 400;
    
 }

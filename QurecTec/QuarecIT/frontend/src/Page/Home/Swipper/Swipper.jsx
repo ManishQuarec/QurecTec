@@ -23,10 +23,7 @@ function Swipper() {
                 Your Products Worldwide
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                ratione, totam consectetur quaerat voluptates est cupiditate!
-                Sint distinctio officia tenetur optio assumenda, sequi
-                quibusdam, veniam molestiae non nulla sed sunt!
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque ullam id, nisi laudantium rem tenetur cumque facere possimus ipsam accusamus voluptate dicta perferendis nihil? Dignissimos similique, accusantium molestiae fugit velit nemo tenetur commodi consequatur sit quod expedita distinctio? Nobis nulla odio, nihil facilis consequuntur quo assumenda ullam, veniam qui saepe corrupti. Explicabo hic officiis vel voluptate eveniet fugit soluta, voluptatum nihil accusantium nostrum? Aperiam atque perferendis fugit? Vel fugit aut dolor qui, dolorum natus ut pariatur aspernatur, reprehenderit eum corrupti beatae quo! Corporis ad quod architecto dolor cumque saepe itaque, ipsa perspiciatis quas facere unde, sed atque sit deleniti nam.
               </p>
             </div>
             <div className="i-left">

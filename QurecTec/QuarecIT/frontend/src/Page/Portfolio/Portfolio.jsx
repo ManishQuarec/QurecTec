@@ -4,20 +4,23 @@ import {CountContext} from './PortfolioMain/PortfolioMain';
 
 
 
-
+function load() {
+  window.scrollTo(0, 0);
+}
 
 
 
 function Portfolio(props) {
 
  const [view, setView]= useState(props.value.value)
- console.log(view);
+ 
 
   const count = useContext(CountContext);
  
 
   return (
     <>
+    
       <div className={view ? "Portfolio" : "Portfolio-false"}>
         { view ? <div className="head" >Portfolio</div> : null}
        

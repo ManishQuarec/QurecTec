@@ -33,7 +33,7 @@ display:flex;
     margin-right: 20%;
     font-family: 'Optima nova LT Pro';
     width: 60%;
-    margin-left: 5%;
+    margin-left: 0%;
     
 }
 .i-right {
@@ -104,18 +104,18 @@ z-index: -1;
     height: 7rem ;
 }
 
-.award {
+.awards {
 
  
-    margin-left: 10%;
+    margin-left: 1%;
     display: inline-flex;
     
     /* border: magenta 1px solid; */
 }
 .google,.clutch,.upwork {
-  margin-top: 5%;
-    width: 15rem;
-    height: 10rem ;
+  margin-top: 0%;
+    width: 8rem;
+    height: 8rem ;
     z-index: -1;
     
 }
@@ -140,7 +140,7 @@ z-index: -1;
     font-size: 101%;
     font-family: 'Optima nova LT Pro';
     /* border: red 1px solid; */
-    margin-left: 10%;
+    margin-left: 8%;
    
 }
 .TopWeb{

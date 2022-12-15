@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Nav from "../../component/Nav/Nav";
 import img1 from "../../Image/homeImage/1.png";
 import project from "../../Image/Projects.png";
 import client from "../../Image/Clients.png";
@@ -16,8 +17,13 @@ import Quote from "../../component/Quote/Quote";
 import Swipper from "../../Page/Home/Swipper/Swipper";
 
 function Home() {
+  function  load() {
+    window.scrollTo(0, 0);
+  }
   return (
     <>
+    <Nav/>
+    {load()}
      
         <Swipper />
       
@@ -54,7 +60,7 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="award">
+            <div className="awards">
               <img src={google} alt="google" className="google" />
               <img src={clutch} alt="clutch" className="clutch" />
               <img src={upwork} alt="upwork" className="upwork" />
