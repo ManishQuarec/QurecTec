@@ -1,24 +1,23 @@
 import React from "react";
 import "../Nav/nav.css";
 import logo from "../../Image/Quarec.png";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { Outlet, Link } from "react-router-dom";
 import { GoGrabber } from "react-icons/go";
-
-
-
 
 function Nav() {
   return (
     <header>
       <nav className="sticky">
         <input type="checkbox" id="check" />
-        
+
         <div className="nav">
           <ul>
             <img src={logo} alt="Logo" />
 
-            <label htmlFor="check" className="Icones"><GoGrabber color="white" /></label>
+            <label htmlFor="check" className="Icones">
+              <GoGrabber color="white" />
+            </label>
 
             <li className="MoveLeft">
               <Link to="/contactus" className="Contact">
@@ -30,21 +29,15 @@ function Nav() {
                 Careers
               </Link>
             </li>
-            {/* <li>
-          <Link  className="expand">Blogs</Link>
-        </li> */}
 
             <li className="dataes">
-              <Link  className="expand">
-                Services 
-              </Link>
+              <Link className="expand">Services</Link>
               <div className="sub-menu-1">
                 <div>
-                  
                   <a href="/WebDevelopment">Web Development</a>
                 </div>
                 <div>
-                  <a href="/ERP" >ERP Solution</a>
+                  <a href="/ERP">ERP Solution</a>
                 </div>
                 <div>
                   <a href="/UiDesign">UI UX Design</a>
@@ -74,7 +67,6 @@ function Nav() {
                 Home{" "}
               </Link>
             </li>
-            
           </ul>
         </div>
       </nav>

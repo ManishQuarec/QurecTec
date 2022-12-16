@@ -1,98 +1,139 @@
-.i{
-    display: flex;
-    height: 100vh;
-    /* border: red 1px solid; */
-    font-family: 'Optima nova LT Pro';
+.i {
+  display: flex;
+  height: 70vh;
+  flex-wrap: wrap;
+  border: red 1px solid;
+  font-family: "Optima nova LT Pro";
 }
 .i-left {
-flex:1;
-/* border: blue 3px solid; */
-height: 100%;
+  flex: 1;
+  /* border: blue 3px solid; */
+  width: 20%;
+  /* height: %; */
 }
-
 
 .i-left-wrapper {
-  
-    margin-left: 10%;
-    margin-top: 15%;
+  margin-left: 10%;
+  margin-top: 15%;
 }
-.i-left-wrapper .provide{
-    /* color: white; */
-    font-weight: 600;
-    font-size: 3rem;
-    /* margin-left: 30%; */
-    text-align: left;
-    text-decoration: none;
-    
-    
+.i-left-wrapper .provide {
+  /* color: white; */
+  font-weight: 600;
+  font-size: 3rem;
+  /* margin-left: 30%; */
+  text-align: left;
+  text-decoration: none;
 }
 
-.i-title{
-    height: 6rem;
- overflow:hidden;
- width: 100rem;
-
+.i-title {
+  height: 6rem;
+  overflow: hidden;
+  width: 100rem;
 }
 .i-title-item {
-   font-size: 4.8rem;
-   width: 60rem;
-   
-   display:flex;
-   align-items: center;
- 
-   
+  font-size: 4.8rem;
+  width: 60rem;
 
+  display: flex;
+  align-items: center;
 }
 .i-title-wrapper {
-    height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
 }
 
 @keyframes move {
   25% {
     transform: translateY(-6rem);
-    color:orange;
+    color: orange;
   }
-  50%{
+  50% {
     transform: translateY(-12rem);
-    color:orangered;
+    color: orangered;
   }
   75% {
     transform: translateY(-18rem);
-    color:greenyellow
+    color: greenyellow;
   }
   100% {
     transform: translateY(-25rem);
-    color:mediumseagreen
-  }  
+    color: mediumseagreen;
+  }
 }
 
 .content div:after {
-  content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.';
-  animation: text 10s  infinite alternate ;
+  content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+  animation: text 10s infinite alternate;
 }
 
 @keyframes text {
   25% {
-    content: 'Lorem2 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.' ;
-    color:orange;
+    content: "Lorem2 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+    color: orange;
   }
-  50%{
-    content: 'Lorem3 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ';
-    color:orangered;
+  50% {
+    content: "Lorem3 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ";
+    color: orangered;
   }
   75% {
-    content: 'Lorem4 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.';
-    color:greenyellow;
+    content: "Lorem4 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+    color: greenyellow;
   }
   100% {
-    content: 'Lorem5 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.';
-    color:mediumseagreen;
-  }  
+    content: "Lorem5 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+    color: mediumseagreen;
+  }
 }
-.content{
+.content {
   margin-top: 2%;
   width: 25rem;
-  font-family: 'Optima nova LT Pro';
+  font-family: "Optima nova LT Pro";
   font-weight: 600;
 }
+
+@media only screen and (max-width: 784px) {
+
+  .i{
+    height: 40vh;
+  }
+
+  .i-title-item {
+    font-size: 3rem;
+    width: 60rem;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .i-title {
+    height: 3.8rem;
+    overflow: hidden;
+    width: 100rem;
+  }
+
+  .i-title-wrapper {
+    height: 60%;
+    animation: move 10s ease-in-out infinite alternate;
+  }
+
+  @keyframes move {
+    25% {
+      transform: translateY(-4rem);
+      color: orange;
+    }
+    50% {
+      transform: translateY(-8rem);
+      color: orangered;
+    }
+    75% {
+      transform: translateY(-12rem);
+      color: greenyellow;
+    }
+    100% {
+      transform: translateY(-16rem);
+      color: mediumseagreen;
+    }
+  }
+}
+
+/* 489 */
