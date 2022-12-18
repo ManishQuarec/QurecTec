@@ -7,11 +7,11 @@
     /* border: red 1px solid ; */
     font-family: 'Optima nova LT Pro';
 }
-.Container h1{
-    color: white;
-    text-align: center;
-    margin-top: 5%;
-}
+    .Container h1{
+        color: white;
+        text-align: center;
+        margin-top: 5%;
+    }
 .img-container {
     height: 60%;
     width: 70%;
@@ -28,4 +28,63 @@
     padding: 1%;
     margin:0;
     
+}
+
+@media only screen and (max-width: 826px) {
+
+    .Container {
+
+        height: 50vh;
+      }
+
+    .img-container img {
+        width:12%;
+        height:30%;
+        padding: 1%;
+        margin:0;
+        
+    }
+
+    .Container h1{
+
+        font-size: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .Container {
+
+        height: 50vh;
+      }
+
+    .img-container img {
+        width:12%;
+        height:20%;
+        padding: 1%;
+        margin:0;
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .Container {
+
+        height: 50vh;
+      }
+
+    .img-container img {
+        width:12%;
+        height:20%;
+        padding: 1%;
+        margin:0;
+        
+    }
+
+
 }

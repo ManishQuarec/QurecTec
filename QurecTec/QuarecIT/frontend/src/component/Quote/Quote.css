@@ -4,7 +4,7 @@
   display: flex;
   color: white !important;
   font-family: "Optima nova LT Pro";
-  /* border: red 1px solid;  */
+  /* border: red 1px solid; */
 }
 
 .main-container-left {
@@ -13,10 +13,11 @@
 }
 .main-container-right {
   flex: 1;
+
+  /* border: red 1px solid; */
 }
 
 .text {
-
   padding: 15%;
   height: 50%;
   margin: 10%;
@@ -25,7 +26,7 @@
 }
 .text div {
   padding: 2%;
-  font-size: 110%;
+  font-size: 100%;
   font-weight: 600;
 }
 
@@ -36,6 +37,8 @@
 .text-right {
   /* border: red 1px solid; */
   padding: 15%;
+  /* padding-top: 0%; */
+
   height: 50%;
   margin: 10%;
   margin-top: 5%;
@@ -45,7 +48,7 @@
 }
 .frame {
   border: white 5px solid;
-  height: 450%;
+  height: 550%;
   border-radius: 2%;
   background-color: #024477;
   opacity: 60%;
@@ -66,7 +69,7 @@
   background-color: #024477;
   border: red 1px solid;
   color: white;
-  /* padding: 5%; */
+  padding: 5%;
   margin: 5%;
   width: 30%;
   height: 10%;
@@ -102,4 +105,178 @@
   background-color: red;
   /* background-size: 100% 100%; */
   box-shadow: outset 6.5em;
+}
+
+
+/* KeyFrame for right form */
+
+@media only screen and (max-width: 1349px) {
+  .frame {
+    height: 350%;
+  }
+}
+
+@media only screen and (max-width: 1092px) {
+  .frame {
+    height: 250%;
+  }
+}
+
+@media only screen and (max-width: 888px) {
+  .frame {
+    height: 200%;
+  }
+}
+
+@media only screen and (max-width: 669px) {
+  .frame {
+    height: 200%;
+  }
+  .main-container {
+    height: 50vh;
+  }
+
+  ::placeholder {
+    color: white !important;
+    font-size: 100%;
+    opacity: 100%;
+    font-family: "Optima nova LT Pro";
+  
+    color: white;
+    font-family: "Optima nova LT Pro";
+  }
+  .frame button {
+    background-color: #024477;
+    border: red 1px solid;
+    color: white;
+    /* padding: 5%; */
+    margin: 5%;
+    width: 42%;
+    height: 15%;
+    border-radius: 2%;
+    font-family: "Optima nova LT Pro";
+    margin-left: 35%;
+  }
+  
+}
+
+@media only screen and (max-width: 543px) {
+
+  .frame button {
+    background-color: #024477;
+    border: red 1px solid;
+    color: white;
+    /* padding: 5%; */
+    margin: 5%;
+    width: 50%;
+    height: 15%;
+    border-radius: 2%;
+    font-family: "Optima nova LT Pro";
+    margin-left: 35%;
+  }
+}
+
+
+@media only screen and (max-width: 543px) {
+
+  .frame button {
+    background-color: #024477;
+    border: red 1px solid;
+    color: white;
+    /* padding: 5%; */
+    margin: 5%;
+    width: 50%;
+    height: 15%;
+    border-radius: 2%;
+    font-family: "Optima nova LT Pro";
+    margin-left: 35%;
+  }
+}
+
+@media only screen and (max-width: 457px) {
+
+  .text-right {
+    /* border: red 1px solid; */
+    padding: 15%;
+    padding-top: 0%;
+  
+    height: 50%;
+    margin: 10%;
+    margin-top: 5%;
+  }
+
+  .main-container {
+    display: flex;
+   flex-direction: column;
+  }
+
+  .frame {
+    height: 300%;
+  }
+
+  .main-container-left {
+    height: 50vh;
+    /* border: red 1px solid;  */
+  }
+
+
+  .frame button {
+    background-color: #024477;
+    border: red 1px solid;
+    color: white;
+    /* padding: 5%; */
+    margin: 5%;
+    width: 50%;
+    height: 15%;
+    border-radius: 2%;
+    font-family: "Optima nova LT Pro";
+    margin-left: 20%;
+  }
+
+
+  .text div {
+    padding: 2%;
+    font-size: 60%;
+    font-weight: 600;
+  }
+  
+  .text h2 {
+    padding: 2%;
+  }
+
+
+}
+
+
+/* keyfram for text */  
+
+@media only screen and (max-width: 1226px) {
+
+  
+
+
+  .text div {
+    padding: 2%;
+    font-size: 80%;
+    font-weight: 600;
+  }
+  
+  .text h2 {
+    padding: 2%;
+  }
+
+
+}
+
+@media only screen and (max-width: 671px) {
+
+  .text div {
+    padding: 2%;
+    font-size: 60%;
+    font-weight: 600;
+  }
+  
+  .text h2 {
+    padding: 2%;
+  }
 }

@@ -99,6 +99,10 @@
 }
 
 @media only screen and (max-width: 1400px) {
+  .container {
+
+    height: 60vh;
+  }
   .employes,
   .client,
   .yearExpertise,
