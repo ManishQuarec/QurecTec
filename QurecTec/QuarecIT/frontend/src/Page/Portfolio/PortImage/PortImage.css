@@ -1,8 +1,8 @@
 .fit{
   margin-right: 40px;
   margin-top: 40px;
-  /* border:magenta 1px solid; */
-  height: 90%;
+  border:magenta 1px solid;
+  height: auto;
   width: 22.5%;
   padding: 1%;
   position: relative;
@@ -10,17 +10,17 @@
 
 
 .PortImage {
-  /* border: navy 1px solid;
-   */
-  height: 23rem;
-  width: 22rem;
+  border: navy 1px solid;
+  
+  height: 20rem;
+  width: 20rem;
   margin-top: 2%;
   margin: 1%;
   /* overflow: hidden; */
 }
 
 .curve {
-  margin-top: 350%;
+  margin-top: 300%;
   margin-left: 40%;
   border: #7DFBFE 2px solid;
   background-color: #0377E4;
