@@ -19,7 +19,7 @@ function CareerPageThree() {
       designation: "Sr.Android Developer",
       experience: " 4 to 6 Years",
       position: "03",
-      qualification: "MCA,BE/B.Tech, BCA,M.Tech,Diploma-IT, BSC-IT",
+      qualification: "MCA,BE/B.Tech, BCA,",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ function CareerPageThree() {
       designation: "Php Developer Intern",
       experience: " Fresher",
       position: "02",
-      qualification: "BE/B.Tech, BCA,Diploma-IT, BSC-IT.",
+      qualification: "BE/B.Tech, BCA,.",
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ function CareerPageThree() {
       designation: "Jr. UI-UX Designer",
       experience: " 0 To 6 Months",
       position: "01",
-      qualification: "MCA,BE/B.Tech, BCA,M.Tech,Diploma-IT, BSC-IT",
+      qualification: "MCA,BE/B.Tech, BCA",
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ function CareerPageThree() {
       designation: "Technical Project Manager",
       experience: " 6 To 7 Years",
       position: "02",
-      qualification: "MCA,BE/B.Tech, BCA,M.Tech,Diploma-IT, BSC-IT",
+      qualification: "MCA,BE/B.Tech, BCA,",
     },
     {
       id: 5,
@@ -51,7 +51,7 @@ function CareerPageThree() {
       designation: "React Developer",
       experience: " 4 to 6 Years",
       position: "03",
-      qualification: "MCA,BE/B.Tech, BCA,M.Tech,Diploma-IT, BSC-IT",
+      qualification: "MCA,BE/B.Tech, BCA,",
     },
     {
       id: 6,
@@ -59,7 +59,7 @@ function CareerPageThree() {
       designation: "Sr. Laravel Developer",
       experience: " Fresher",
       position: "02",
-      qualification: "MCA,BE/B.Tech, BCA,M.Tech,Diploma-IT, BSC-IT",
+      qualification: "MCA,BE/B.Tech",
     },
     {
       id: 7,
@@ -67,7 +67,7 @@ function CareerPageThree() {
       designation: "Sr.Android Developer",
       experience: " 4 to 6 Years",
       position: "03",
-      qualification: "MCA,BE/B.Tech, BCA,M.Tech,Diploma-IT, BSC-IT",
+      qualification: "MCA,BE/B.Tech, BCA",
     },
     {
       id: 8,
@@ -75,7 +75,7 @@ function CareerPageThree() {
       designation: "iOS / Sr. iOS Developer",
       experience: " 0 To 6 Months",
       position: "01",
-      qualification: "MCA,BE/B.Tech, BCA,M.Tech,Diploma-IT, BSC-IT",
+      qualification: "BCA,M.Tech,Diploma-IT, BSC-IT",
     },
   ];
 

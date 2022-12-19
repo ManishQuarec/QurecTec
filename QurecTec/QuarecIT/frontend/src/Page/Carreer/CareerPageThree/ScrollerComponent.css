@@ -79,7 +79,7 @@
 }
 .qualifictionData {
     display: inline;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 .submitButton .viewDetail {
     width: 35%;
@@ -112,6 +112,48 @@
    
     
 }
+
+@media only screen and (max-width: 1621px) {
+
+    .submitButton .applyNow {
+
+        height: 44%;
+    }
+
+    .submitButton .viewDetail {
+
+        height: 44%;
+    }
+}
+
+@media only screen and (max-width: 1486px) {
+    .jobDescription {
+
+        width: 50%;
+    }
+
+    .IconImg {
+        margin-right: 2%;
+    }
+    .qualifictionData {
+        /* word-wrap: break-word; */
+        overflow: hidden;;
+    }
+
+}
+
+@media only screen and (max-width: 1086px) {
+    .IconImg img {
+        /* border: red 1px solid; */
+        width: 60%;
+        height: 60%;
+        flex:1s;
+        padding: 1%;
+        
+    }
+
+}
+
 /* .IconImg img {
     padding: 1%;
 } */
