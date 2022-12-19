@@ -1,7 +1,8 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
-  
 }
 body {
   /* background: #1f1f1f; */
@@ -27,7 +28,8 @@ body {
   width: 19.2%;
   height: 100%;
   /* background: #252525; */
-  transition: transform 0.6s 0.7s, width 0.7s, opacity 0.6s 0.7s, z-index 0s 1.3s;
+  transition: transform 0.6s 0.7s, width 0.7s, opacity 0.6s 0.7s,
+    z-index 0s 1.3s;
   will-change: transform, width, opacity;
 }
 .el:not(.s--active) {
@@ -55,7 +57,7 @@ body {
   will-change: transform;
 }
 .el__bg:before {
-  content:'';
+  content: "";
   position: absolute;
   left: 0;
   top: -5%;
@@ -74,7 +76,7 @@ body {
   transition: transform 0.8s;
 }
 .el__bg:after {
-  content: '';
+  content: "";
   z-index: unset;
   position: absolute;
   left: 0;
@@ -110,8 +112,6 @@ body {
   transform: translateY(30px);
   transition: all 0.5s;
 }
-
-
 
 .el__content {
   z-index: unset;
@@ -154,8 +154,9 @@ body {
   pointer-events: auto;
   transition: all 0s 1.4s;
 }
-.el__close-btn:before, .el__close-btn:after {
-  content: '';
+.el__close-btn:before,
+.el__close-btn:after {
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -166,7 +167,8 @@ body {
   opacity: 0;
   transition: opacity 0s;
 }
-.el.s--active .el__close-btn:before, .el.s--active .el__close-btn:after {
+.el.s--active .el__close-btn:before,
+.el.s--active .el__close-btn:after {
   opacity: 1;
 }
 .el__close-btn:before {
@@ -186,7 +188,6 @@ body {
 
 .el:hover .el__bg:before {
   transform: translate3d(0, 0, 0) scale(1.1);
-  
 }
 
 .cont.s--el-active .el:nth-child(1):not(.s--active) {
@@ -202,7 +203,7 @@ body {
 }
 .el:nth-child(1) .el__bg:before {
   transition-delay: 0s;
-  background-image: url('../../../Image/Glimpse/image2.png');
+  background-image: url("../../../Image/Glimpse/image2.png");
 }
 .el:nth-child(2) {
   transform: translate3d(105.2083333333%, 0, 0);
@@ -221,7 +222,7 @@ body {
 }
 .el:nth-child(2) .el__bg:before {
   transition-delay: 0.1s;
-  background-image: url('../../../Image/Glimpse/image3.png');
+  background-image: url("../../../Image/Glimpse/image3.png");
 }
 .el:nth-child(3) {
   transform: translate3d(210.4166666667%, 0, 0);
@@ -240,7 +241,7 @@ body {
 }
 .el:nth-child(3) .el__bg:before {
   transition-delay: 0.2s;
-  background-image: url('../../../Image/Glimpse/image4.png');
+  background-image: url("../../../Image/Glimpse/image4.png");
 }
 .el:nth-child(4) {
   transform: translate3d(315.625%, 0, 0);
@@ -259,7 +260,7 @@ body {
 }
 .el:nth-child(4) .el__bg:before {
   transition-delay: 0.3s;
-  background-image: url('../../../Image/Glimpse/image6.png');
+  background-image: url("../../../Image/Glimpse/image6.png");
 }
 .el:nth-child(5) {
   transform: translate3d(420.8333333333%, 0, 0);
@@ -278,11 +279,10 @@ body {
 }
 .el:nth-child(5) .el__bg:before {
   transition-delay: 0.4s;
-  background-image: url('https://images.unsplash.com/photo-1543310465-f4d3ca5a2a25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80');
+  background-image: url("https://images.unsplash.com/photo-1543310465-f4d3ca5a2a25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
 }
 .el:hover .el__bg:after {
   opacity: 0;
- 
 }
 .el.s--active {
   z-index: unset;
@@ -318,8 +318,8 @@ body {
   height: 80vh;
 } */
 
-.dnt h1{
-  font-family: 'Optima nova LT Pro';
+.dnt h1 {
+  font-family: "Optima nova LT Pro";
   border: white 1px solid;
   color: white;
   width: 40%;
@@ -327,13 +327,42 @@ body {
   background: rgba(2, 68, 119, 0.5);
   font-weight: 400;
   text-align: center;
-
- 
-
 }
 
-.el{
+.el {
   border-radius: 10px;
   border: 1%;
-  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);  
+  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
+
+@media only screen and (max-width: 1669px) {
+  .dnt h1 {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1121px) {
+  .dnt h1 {
+    font-size: 150%;
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 727px) {
+  .dnt h1 {
+    font-size: 130%;
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 632px) {
+  .dnt h1 {
+    font-size: 130%;
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+

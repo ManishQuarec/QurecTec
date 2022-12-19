@@ -1,5 +1,5 @@
 .SecondPageComponent {
-  /* border: green 1px solid; */
+  border: green 1px solid;
   height: 80vh;
   display: flex;
   color: white;
@@ -51,3 +51,48 @@ margin-top: 5%;
     margin-left: 12%;
 }
 
+@media only screen and (max-width: 1089px) {
+
+    .pone, .ptwo, .pthree, .pfour{
+        font-size: 100%;
+     
+    }
+
+    .headerContent{
+        font-size: 150%;
+    }
+
+    .SecondPageRightImage{
+        width:50%;
+        height: 60%;
+        margin-left: 12%;
+    }
+
+    .googleone, .clutchone, .upworkone {
+
+        width: 20%;
+        height: 15%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .SecondPageComponent {
+       
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+       
+      }
+
+      .headerContent {
+        font-size: 150%;
+    }
+
+    .pone, .ptwo, .pthree, .pfour{
+        font-size: 80%;
+     
+    }
+
+}

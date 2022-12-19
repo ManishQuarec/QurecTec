@@ -62,3 +62,97 @@ background-color:rgba(2, 68, 119, 0.5);
 margin-left: 35%;
 
 }
+
+@media only screen and (max-width: 1318px) {
+
+    .FirstPageHeader {
+        font-size: 200%;
+        margin-top: 12%;
+      
+    
+    }
+
+    .FirstPageComponentLeft-Head {
+        font-size: 150%;
+        /* border: green 1px solid; */
+        width: 85%
+    }
+
+    .FirstPageComponentLeft-Content {
+        font-size: 90%;
+        margin-top: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 845px) {
+
+    .FirstPageHeader {
+        font-size: 150%;
+        margin-top: 15%;
+      
+    
+    }
+
+    .FirstPageComponentLeft-Head {
+        font-size: 120%;
+        /* border: green 1px solid; */
+        width: 90%
+    }
+
+    .ImgComponent {
+        width: 90%;
+        height: 80%;
+    }
+
+    .FirstPageComponentLeft-Content {
+        font-size: 70%;
+        margin-top: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 620px) {
+    .FirstPageHeader {
+        font-size: 100%;
+        margin-top: 20%;
+      
+    
+    }
+
+    .ImgComponent {
+        width: 95%;
+        height: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    .FirstPageComponent {
+        display: flex;
+        width:100%;
+        height: 80%;
+        flex-direction: column;
+        /* margin-top: 6%; */
+        /* border: red 1px solid; */
+     
+    }
+}
+
+@media only screen and (max-width: 456px) {
+
+    .FirstPageHeader {
+        font-size: 90%;
+        margin-top: 25%;
+      
+    
+    }
+
+    .ImgComponent {
+        width: 80%;
+        height: 60%;
+    }
+
+}

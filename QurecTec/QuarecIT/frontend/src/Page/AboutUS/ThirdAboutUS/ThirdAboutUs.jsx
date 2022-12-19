@@ -1,17 +1,17 @@
 import React from "react";
 import "./ThirdAbout.css";
-import male from '../../../Image/male.png';
-import female from '../../../Image/female.png';
+import male from "../../../Image/male.png";
+import female from "../../../Image/female.png";
 
 function ThirdAboutUs() {
   return (
     <div className="ThirdAboutUs">
       <div className="Ourdirector">
-        <p> Our Directors</p>
+        <p> Our Director</p>
       </div>
 
       <div className="full-director">
-        <div className="Director-1">
+        {/* <div className="Director-1">
             <img src={male} alt="Male"  className="male"/>
           <div className="Name-1">Mr.Binod</div>
           <div className="designation-1">CEO</div>
@@ -27,9 +27,9 @@ function ThirdAboutUs() {
             Commodi totam rerum, dolorem rem, at, aut nisi neque sit facere
             maxime maiores cum voluptatibus
           </p>
-        </div>
+        </div> */}
         <div className="Director-2">
-        <img src={female} alt="female"  className="female"/>
+          <img src={female} alt="female" className="female" />
           <div className="Name-2">Mr.Binod</div>
           <div className="designation-2">CEO</div>
           <p className="content-2">
@@ -42,10 +42,10 @@ function ThirdAboutUs() {
             necessitatibus eveniet quasi? Ullam ipsum ex dicta veritatis magni
             porro non ducimus odit asperiores nisi voluptate dolores, quis
             dolore. Eos odio alias doloremque, facere vero quos expedita
-            distinctio suscipit, 
+            distinctio suscipit,
           </p>
         </div>
-        <div className="Director-3">
+        {/* <div className="Director-3">
         <img src={male} alt="Male"  className="male2"/>
           <div className="Name-3">Mr.Binod</div>
           <div className="designation-3">CEO</div>
@@ -62,7 +62,7 @@ function ThirdAboutUs() {
             itaque aliquid iure? Neque adipisci nesciunt omnis harum tenetur!
             Delectus, illo. Esse corrupti minus aliquid id, debitis nemo et.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

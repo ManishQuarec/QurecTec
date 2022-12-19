@@ -25,6 +25,7 @@ function SecondAboutUs() {
           <img src={star} alt="star" />
         </div>
         <div className="vision">
+          
           <h2>Our Vission</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting

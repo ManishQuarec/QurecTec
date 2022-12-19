@@ -60,3 +60,70 @@ margin-top: 2%;
     text-align: center;
     margin-left: 5%;
 }
+
+@media only screen and (max-width: 1156px) {
+
+
+.ForthPageHeader {
+    font-size: 120%;
+    
+    z-index: 1;
+    bottom:10%;
+    /* position: relative; */
+}
+.ForthPageContent{
+    font-size: 90%;
+}
+
+}
+
+@media only screen and (max-width: 861px) {
+    .ForthPageHeader {
+        font-size: 100%;
+        
+        z-index: 1;
+        bottom:10%;
+        /* position: relative; */
+    }
+    .ForthPageContent{
+        font-size: 70%;
+    }
+
+    .FourthPageComponent {
+        height: 50vh;
+        /* border: red 1px solid; */
+        
+    }
+
+}
+
+@media only screen and (max-width: 548px) {
+
+    .FourthPageComponent {
+        height: 30vh;
+        /* border: red 1px solid; */
+        
+    }
+
+    .ForthPageHeader {
+        font-size: 60%;
+        
+        z-index: 1;
+        bottom:10%;
+        /* position: relative; */
+    }
+    .ForthPageContent{
+        font-size: 40%;
+    }
+
+    .ForthPageHeader2 {
+
+        font-size: 150%;
+       
+    }
+}
+
+@media only screen and (max-width: 636px) {
+
+
+}

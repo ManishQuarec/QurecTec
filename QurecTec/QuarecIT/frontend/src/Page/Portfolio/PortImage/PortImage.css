@@ -1,7 +1,7 @@
 .fit{
   margin-right: 40px;
   margin-top: 40px;
-  border:magenta 1px solid;
+  /* border:magenta 1px solid; */
   height: auto;
   width: 22.5%;
   padding: 1%;
@@ -10,7 +10,7 @@
 
 
 .PortImage {
-  border: navy 1px solid;
+  /* border: navy 1px solid; */
   
   height: 20rem;
   width: 20rem;
@@ -68,6 +68,59 @@
   border-radius: 1%;
   /* border: 0%; */
   box-shadow: 0px 0px 0px 3px  rgba(0, 163, 255, 0.3);
+
+}
+
+@media only screen and (max-width:1353px) {
+  .uperdata,
+  .lowerData {
+    /* padding: 2%; */
+    font-size: 110%;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    font-family: 'Optima nova LT Pro';
+    
+  }
+
+  .curve {
+    margin-top: 230%;
+    margin-left: 30%;
+  
+    opacity: 70%;
+    height: 15%;
+    width: 200%;
+  
+  }
+  .PortImage {
+    /* border: navy 1px solid; */
+    
+    height: auto;
+    width: 15rem;
+   
+    /* overflow: hidden; */
+  }
+
+  
+
+  .fit{
+   
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .curve {
+    margin-top: 230%;
+    margin-left: 30%;
+  
+    opacity: 70%;
+    height: 25%;
+    width: 200%;
+  
+  }
 
 }
 

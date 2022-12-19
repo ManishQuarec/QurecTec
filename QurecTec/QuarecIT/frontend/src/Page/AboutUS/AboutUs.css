@@ -5,92 +5,208 @@
 
   margin-top: 6%;
 }
-.left-About{
-    flex: 1;
-    /* border: rgb(0, 255, 76) 1px solid; */
+.left-About {
+  flex: 1;
+  /* border: rgb(0, 255, 76) 1px solid; */
 }
-.Right-About{
-    flex: 1;
-    /* border: rgb(75, 22, 191) 1px solid; */
+.Right-About {
+  flex: 1;
+  /* border: rgb(75, 22, 191) 1px solid; */
 }
-.club-left{
-    display: block;
-height: 80%;
-margin-top: 10%;
-margin-left:10%;
-margin-right:10%;
-margin-bottom: 10%;
+.club-left {
+  display: block;
+  height: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* margin-bottom: 10%; */
 
-/* border: magenta 1px solid; */
-
+  /* border: magenta 1px solid; */
 }
 
-.club-right{
-    display: block;
-    height: 80%;
-    margin-top: 10%;
-    margin-left:10%;
-    margin-right:10%;
-    margin-bottom: 10%;
-    
-    /* border: gold 1px solid; */
+.club-right {
+  display: block;
+  height: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+
+  /* border: gold 1px solid; */
 }
 
 .aboutImg {
-    height: 40rem;
-    width: 40rem;
-    border-radius: 50%;
+  height: 40rem;
+  width: 40rem;
+  border-radius: 50%;
 }
 
-.who{
-    color: white;
-    font-family: 'Optima nova LT Pro';
-   
-    font-size: 1.2rem;
-    font-weight: 600;
-    
-    padding: 1%;
+.who {
+  color: white;
+  font-family: "Optima nova LT Pro";
+
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  padding: 1%;
 }
-.Us{
-    color: white;
-    font-family: 'Optima nova LT Pro';
-    font-size: 2.5rem;
-    padding: 1%;
-    font-weight: 600;
+.Us {
+  color: white;
+  font-family: "Optima nova LT Pro";
+  font-size: 2.5rem;
+  padding: 1%;
+  font-weight: 600;
 }
 .statement {
-    color: white;
-    font-family: 'Optima nova LT Pro';
-    font-size: 1.2rem;
-    font-weight: 600;
-    height: 200%;
-    word-spacing: 1000%;
-    line-height: 1.5
+    /* border:red 1px solid; */
+  color: white;
+  font-family: "Optima nova LT Pro";
+  font-size: 1.2rem;
+  font-weight: 600;
+ 
+  word-spacing: 1000%;
+  line-height: 1.5;
 }
 
 .alltime {
+  height: 15rem;
+  width: 48rem;
+  margin-left: 0%;
+  margin-top: 4%;
 
-    height: 15rem;
-    width: 48rem;
-    margin-left:0%;
-    margin-top: 4%;
-    
-    /* border: red 1px solid; */
+  /* border: red 1px solid; */
 }
 .alltime img {
-    width: 45rem
+  width: 45rem;
 }
 
 .clubleftText {
-    display: block;
-    margin-left: 5%;
-    height: 60%;
-    width: 40rem;
-    /* border:rgb(75, 22, 191) 1px solid; */
+  display: block;
+  margin-left: 5%;
+  height: 60%;
+  width: 40rem;
+  /* border:rgb(75, 22, 191) 1px solid; */
 }
 
-.aboutImg1{
-height: 100%;
-width: 80%
-
+.aboutImg1 {
+  height: 100%;
+  width: 80%;
 }
+
+@media only screen and (max-width: 1486px) {
+  .who {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .statement {
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  .alltime img {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+    .who {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  
+    .statement {
+      font-size: 1rem;
+      width: 70%;
+    }
+  
+  
+    .Us {
+  
+        font-size: 2rem;
+        padding: 1%;
+        font-weight: 500;
+      }
+      .alltime img {
+        width: 15rem;
+      }
+
+      .alltime {
+        height: auto;
+        width: 30rem;
+       
+        
+      }
+  }
+
+  @media only screen and (max-width: 940px) {
+
+    .who {
+        font-size: .8rem;
+    }
+    .About {
+        display: flex;
+        height: 60vh;
+    }
+
+    .statement {
+        font-size: .8rem;
+        width: 60%;
+      }
+      .alltime img {
+        width: 10rem;
+      }
+
+  }
+  
+
+  @media only screen and (max-width: 919px) {
+    .About {
+        display: flex;
+        height: 120vh;
+        flex-direction: column;
+    }
+
+    .aboutImg1{
+        width:60%;
+        
+    }
+    .About {
+       
+      
+        margin-top: 12%;
+      }
+
+  }
+
+  @media only screen and (max-width: 466px) {
+    .statement {
+        font-size: .8rem;
+        width: 50%;
+        height: 80%;
+      }
+      
+      .alltime img {
+       margin-top: 5%;
+      }
+      .alltime img {
+        width: 18rem;
+        height: 4rem;
+      }
+  }
+
+  @media only screen and (max-width: 395px) {
+    .statement {
+        font-size: .7rem;
+        width: 40%;
+        height: 80%;
+      }
+
+      .alltime img {
+        margin-top: 6%;
+       }
+       .alltime img {
+         width: 17rem;
+         height: 3rem;
+       }
+  }

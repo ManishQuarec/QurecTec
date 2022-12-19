@@ -47,7 +47,7 @@
   height: 55%;
   display: grid;
   grid-template-columns: 25rem 25rem 25rem 25rem;
-  grid-template-rows: 37rem 37rem 37rem 37rem;
+  grid-template-rows:  37rem 37rem;
   position: absolute;
   overflow: hidden;
   overflow-y: scroll;
@@ -237,4 +237,35 @@
     padding: 0.1rem;
     font-size: 30%;
   } 
+}
+
+
+@media only screen and (max-width: 1700px) {
+  .limit {
+ 
+    grid-template-columns: 25rem 25rem 25rem ;/* 25rem*/
+    grid-template-rows: 37rem 37rem 37rem  ; /* 37rem 37rem*/
+   
+  }
+
+}
+
+@media only screen and (max-width: 1250px) {
+  .limit {
+ 
+    grid-template-columns: 25rem 25rem  ;/* 25rem*/
+    grid-template-rows: 37rem 37rem 37rem 37rem ; /* 37rem 37rem*/
+   
+  }
+
+}
+
+@media only screen and (max-width: 772px) {
+  .limit {
+ 
+    grid-template-columns: 25rem   ;/* 25rem*/
+    grid-template-rows: 20rem 20rem 20rem 20rem 20rem 20rem 20rem 20rem; /* 37rem 37rem*/
+   
+  }
+
 }
