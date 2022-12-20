@@ -3,154 +3,286 @@
   height: 20%;
   color: white;
   margin: 1%;
- 
+  overflow: hidden;
+
   display: flex;
-  font-family: 'Optima nova LT Pro';
+  font-family: "Optima nova LT Pro";
 }
 
 .IconImg {
-    /* border: red 1px solid; */
-    width: 8%;
-    height: 100%;
-    flex:1s;
-    padding: 1%;
-    
+  /* border: red 1px solid; */
+  width: 8%;
+  height: 100%;
+  flex: 1s;
+  padding: 1%;
 }
 .jobDescription {
-    /* border:magenta 1px solid; */
-    height: 100%;
-    width:70%;
-    /* margin-left: 10%; */
-    flex:1
-
+  /* border:magenta 1px solid; */
+  height: 100%;
+  width: 70%;
+  /* margin-left: 10%; */
+  flex: 1;
 }
 .submitButton {
-    /* border:blue 1px solid; */
-    width:25%;
-    flex:1s;
+  /* border:blue 1px solid; */
+  width: 25%;
+  flex: 1s;
 }
 .designation {
-    width:100%;
-    /* border: goldenrod 1px solid; */
-    font-family: 'Optima nova LT Pro';
-    color: #6ADEE6;
-    text-decoration-line: underline;
-    font-weight: 750;
-    font-size: 150%;
-    margin-bottom: 2%;
-    margin-top: 1%;
+  width: 100%;
+  /* border: goldenrod 1px solid; */
+  font-family: "Optima nova LT Pro";
+  color: #6adee6;
+  text-decoration-line: underline;
+  font-weight: 750;
+  font-size: 150%;
+  margin-bottom: 2%;
+  margin-top: 1%;
 }
-.experience  {
-    display: inline;
-    /* border: magenta 1px solid; */
-    width:20%;
-    font-family: 'Optima nova LT Pro';
-    font-weight: 600;
-    font-size: 120%;
-    /* margin-top: 25%; */
- 
+.experience {
+  display: inline;
+  /* border: magenta 1px solid; */
+  width: 20%;
+  font-family: "Optima nova LT Pro";
+  font-weight: 600;
+  font-size: 120%;
+  /* margin-top: 25%; */
 }
-.positions{
-    /* border: red 1px solid; */
-    width:20%;
-    display: inline;
-    font-family: 'Optima nova LT Pro';
-    font-weight: 600;
-    font-size: 120%;
-    margin-left: 15%
+.positions {
+  /* border: red 1px solid; */
+  width: 20%;
+  display: inline;
+  font-family: "Optima nova LT Pro";
+  font-weight: 600;
+  font-size: 120%;
+  margin-left: 15%;
 }
 .qualification {
-    display: inline;
-    /* border: green 1px solid; */
-    width:20%;
-    font-family: 'Optima nova LT Pro';
-    font-weight: 600;
-    font-size: 120%;
-    margin-left: 15%
+  display: inline;
+  /* border: green 1px solid; */
+  width: 20%;
+  font-family: "Optima nova LT Pro";
+  font-weight: 600;
+  font-size: 120%;
+  margin-left: 15%;
 }
 
 .yearsOfExperince {
-    display: inline;
-
+  display: inline;
 }
 .positionsNo {
-    display: inline;
-    margin-left: 17%;
+  display: inline;
+  margin-left: 18%;
 }
 .qualifictionData {
-    display: inline;
-    margin-left: 25%;
+  display: inline;
+  margin-left: 25%;
 }
 .submitButton .viewDetail {
-    width: 35%;
-    height: 35%;
-    display: inline;
-    margin-left: 0%;
-    background-color: red;
-    color: white;
-    font-size: 120%;
-    border: red;
-    border-radius: 5%;
-    margin-left: 12%;
-    margin-top: 9%;
-    font-weight: 400;
-   
+  width: 35%;
+  height: 35%;
+  display: inline;
+  margin-left: 0%;
+  background-color: red;
+  color: white;
+  font-size: 120%;
+  border: red;
+  border-radius: 5%;
+  margin-left: 12%;
+  margin-top: 9%;
+  font-weight: 400;
 }
 
-.submitButton .applyNow{
-    display: inline;
-    width: 30%;
-    height: 35%;
-    display: inline;
-    background-color: transparent ;
-    border: red 1px solid;
-    color: white;
-    font-size: 120%;
-    margin-left: 12%;
-    border-radius: 5%;
-    font-weight: 400;
-   
-    
+.submitButton .applyNow {
+  display: inline;
+  width: 30%;
+  height: 35%;
+  display: inline;
+  background-color: transparent;
+  border: red 1px solid;
+  color: white;
+  font-size: 120%;
+  margin-left: 12%;
+  border-radius: 5%;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 1621px) {
+  .submitButton .applyNow {
+    height: 44%;
+  }
 
-    .submitButton .applyNow {
-
-        height: 44%;
-    }
-
-    .submitButton .viewDetail {
-
-        height: 44%;
-    }
+  .submitButton .viewDetail {
+    height: 44%;
+  }
 }
 
 @media only screen and (max-width: 1486px) {
-    .jobDescription {
+  .jobDescription {
+    width: 50%;
+  }
 
-        width: 50%;
-    }
-
-    .IconImg {
-        margin-right: 2%;
-    }
-    .qualifictionData {
-        /* word-wrap: break-word; */
-        overflow: hidden;;
-    }
-
+  .IconImg {
+    margin-right: 2%;
+  }
+  .qualifictionData {
+    /* word-wrap: break-word; */
+    overflow: hidden;
+  }
 }
 
 @media only screen and (max-width: 1086px) {
-    .IconImg img {
-        /* border: red 1px solid; */
-        width: 60%;
-        height: 60%;
-        flex:1s;
-        padding: 1%;
-        
-    }
+  .IconImg img {
+    /* border: red 1px solid; */
+    width: 60%;
+    height: 60%;
+    flex: 1s;
+    padding: 1%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .IconImg img {
+    /* border: red 1px solid; */
+    width: 60%;
+    height: 60%;
+    flex: 1s;
+    padding: 1%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .submitButton .viewDetail,
+  .submitButton .applyNow {
+    font-size: 80%;
+  }
+
+  .designation {
+    font-size: 120%;
+  }
+  .experience {
+    font-size: 100%;
+  }
+
+  .positions {
+    font-size: 100%;
+  }
+
+  .qualification {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .qualifictionData,
+  .positionsNo,
+  .yearsOfExperince {
+    font-size: 60%;
+    width: 100%;
+    height: auto;
+    /* border: red 1px solid; */
+    word-wrap: break-all;
+  }
+
+  .designation {
+    font-size: 100%;
+  }
+  .experience {
+    font-size: 80%;
+  }
+
+  .positions {
+    font-size: 80%;
+  }
+
+  .qualification {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 663px) {
+  .IconImg img {
+    /* border: red 1px solid; */
+    width: 60%;
+    height: 40%;
+    flex: 1s;
+    padding: 1%;
+  }
+
+  .submitButton .viewDetail,
+  .submitButton .applyNow {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .IconImg {
+    display: none;
+  }
+
+  .ScrollerComponent {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+  }
+
+  .Headers {
+    width: 123%;
+  }
+  .headerData {
+    width: 150%;
+  }
+
+  .qualification {
+    display: inline;
+
+    margin-left: 15%;
+  }
+
+  .yearsOfExperince {
+    margin-left: 0%;
+  }
+
+  .positionsNo {
+    margin-left: 17%;
+  }
+  .submitButton {
+    width: 100%;
+    height: 40%;
+    margin-top: 0%;
+  }
+
+  .submitButton .viewDetail {
+    width: 25%;
+    /* height: auto; */
+    font-size: 60%;
+   padding-top: 0%;
+   margin-top: 0%;
+  }
+
+  .submitButton .applyNow {
+    width: 25%;
+    font-size: 60%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+
+    .Headers {
+        width: 150%;
+      }
+}
+
+@media only screen and (max-width: 436px) {
+    .Headers {
+        width: 200%;
+      }
+      .headerData {
+        width: 250%;
+      }
+
+
 
 }
 
