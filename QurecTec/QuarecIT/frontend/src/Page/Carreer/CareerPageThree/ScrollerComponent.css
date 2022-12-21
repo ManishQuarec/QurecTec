@@ -134,20 +134,25 @@
 @media only screen and (max-width: 1086px) {
   .IconImg img {
     /* border: red 1px solid; */
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
     flex: 1s;
-    padding: 1%;
+
+    /* padding: 1%; */
+  }
+
+  .IconImg {
+    margin-right: 0%;
   }
 }
 
 @media only screen and (max-width: 900px) {
   .IconImg img {
     /* border: red 1px solid; */
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
     flex: 1s;
-    padding: 1%;
+    /* padding: 1%; */
   }
 }
 
@@ -203,10 +208,10 @@
 @media only screen and (max-width: 663px) {
   .IconImg img {
     /* border: red 1px solid; */
-    width: 60%;
-    height: 40%;
+    width: 80%;
+    height: 80%;
     flex: 1s;
-    padding: 1%;
+    /* padding: 1%; */
   }
 
   .submitButton .viewDetail,
@@ -216,14 +221,34 @@
 }
 
 @media only screen and (max-width: 570px) {
-  .IconImg {
-    display: none;
-  }
-
   .ScrollerComponent {
     display: flex;
     flex-direction: column;
     height: 20%;
+    flex-wrap: wrap;
+  }
+
+  .ScrollerComponent > * {
+    flex: 1 1 65px;
+  }
+
+  .IconImg {
+    display: flex;
+    align-self: flex-end;
+    order: 3;
+    width: 15%;
+    padding: 2%;
+    /* z-index: 100; */
+  }
+
+  .submitButton {
+    width: 80%;
+    flex: 1;
+  }
+
+  .IconImg img {
+    width: 100%;
+    height: 80%;
   }
 
   .Headers {
@@ -247,43 +272,44 @@
     margin-left: 17%;
   }
   .submitButton {
-    width: 100%;
-    height: 40%;
+    /* width: 100%; */
+    height: 80%;
     margin-top: 0%;
   }
 
   .submitButton .viewDetail {
     width: 25%;
+    height: 70%;
     /* height: auto; */
     font-size: 60%;
-   padding-top: 0%;
-   margin-top: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
   }
 
   .submitButton .applyNow {
     width: 25%;
+    height: 80%;
     font-size: 60%;
     margin-left: 5%;
   }
 }
 
 @media only screen and (max-width: 570px) {
-
-    .Headers {
-        width: 150%;
-      }
+  .Headers {
+    width: 150%;
+  }
 }
 
 @media only screen and (max-width: 436px) {
-    .Headers {
-        width: 200%;
-      }
-      .headerData {
-        width: 250%;
-      }
-
-
-
+  .Headers {
+    width: 200%;
+  }
+  .headerData {
+    width: 250%;
+  }
+  .IconImg {
+    display: none;
+  }
 }
 
 /* .IconImg img {
